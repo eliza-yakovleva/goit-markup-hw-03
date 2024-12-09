@@ -55,13 +55,11 @@ body {
 
 .header {
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .header-nav {
     display: flex;
-    background-color: #2E2F42;
+    align-items: center;
 }
 
 .logo {
@@ -72,57 +70,56 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    margin-right: 78px;
+    margin-right: 76px;
 }
 
 .header-menu {
-    display:flex;
+    display: flex;
     column-gap: 40px;
+    margin-right: 332px;
 }
 
-.header-nav-list {
+.header-menu-list {
     color: #2E2F42;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.02em;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px; 
 }
 
-.header-nav-list:hover {
-    color: #404bbf;
-}
-
-.header-nav-list:focus {
+.header-menu-list:hover, .header-menu-list:focus {
     color: #404bbf;
 }
 
 .address {
-    display: flex;
     font-style: normal;
+    display: flex;
 }
 
 .address-menu {
-    display: flex;
+    display: flex;  
+    column-gap: 40px;
+    align-items: center;
 } 
 
-.address-menu-list {
+.address-menu-list { 
+
 }
 
 .address-link {
     color: #434455;
     line-height: 150%;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.address-link:hover {
+.address-link:hover, .address-link:focus {
     color: #404bbf;
 
 }
-
-.address-link:focus {
-    color: #404bbf;
-}
-
 /* ===== MAIN ===== */
 
 .hero {
