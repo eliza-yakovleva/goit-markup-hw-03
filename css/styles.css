@@ -43,6 +43,10 @@ button {
     margin-left: auto;
 }
 
+.section-paddings{
+    padding: 32px 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -109,6 +113,7 @@ body {
 } 
 
 .address-menu-list { 
+    display: flex;
 }
 
 .address-link {
@@ -139,6 +144,9 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 59px;
 }
 
 .hero-button {
@@ -151,7 +159,7 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     display: block;
-    margin: 169px 636px;
+    margin: 0 auto 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -164,7 +172,7 @@ body {
 }
 
 .description {
-    padding: 120px 0;;
+    padding: 120px 0;
 }
 
 .description-list{ 
@@ -173,7 +181,7 @@ body {
 }
 
 .description-item {
-    width: calc((100% -72px) /4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -194,6 +202,7 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-header {
@@ -203,11 +212,19 @@ body {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-card {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4 );
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -225,7 +242,9 @@ body {
     text-align: center;
 }
 
-.portfolio {}
+.portfolio {
+    padding: 120px 0;
+}
 
 .portfolio-header {
     color: #2e2f42;
@@ -234,7 +253,8 @@ body {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-title {
