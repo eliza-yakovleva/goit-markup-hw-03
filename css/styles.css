@@ -61,6 +61,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 1158px;
 }
 
